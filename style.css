@@ -5,16 +5,43 @@
 }
 
 .container{
+    /* margin:auto; */
     display: flex;
     background-color:aquamarine;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    height: 900px;
+    width: 900px;
+    margin: auto;
 }
 .user{
-    background-color: aquamarine;
+    display: inline-flex;
+    background-color: rgb(60, 96, 194);
     border: 1px solid black;
-    height: 20px;
-    width: 400px;
-    
+    border-radius: 10px;
+    height: 30px;
+    width: fit-content;
+    padding:15px 5px 15px 5px;
+    margin:20px 15% 20px;
+    align-items: center;
+    color: aliceblue;
+}
+
+.container div:nth-child(odd){
+    background-color: #f56b6b;
+}
+#user2{
+    align-self: flex-end;
+}
+.icon1{
+    position: absolute;
+    left:25%;
+}
+.icon2{
+    position: absolute;
+    right:25%;
+}
+p{
+    padding: 5px;
 }
